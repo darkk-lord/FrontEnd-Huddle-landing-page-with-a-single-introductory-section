@@ -1,0 +1,41 @@
+:root{
+    --primary-clr-violet: hsl(257, 40%, 49%);
+    --secondary-clr-soft-magenta: hsl(300, 69%, 71%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(/images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-color: var(--primary-clr-violet);
+    /* padding-left: 100px; */
+    color: white;
+}
+
+.header-logo{
+    margin-top: 60px;
+    margin-left: 60px;
+}
+
+.hero{
+    width: 80%;
+    margin: 100px auto 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: none;
+}
+
+.hero-image{
+    background-repeat: no-repeat;
+}
+
+.hero-section-heading{
+    font-family: Poppins;
+    font-size: 2rem;
+    font-weight: 400;
+}
